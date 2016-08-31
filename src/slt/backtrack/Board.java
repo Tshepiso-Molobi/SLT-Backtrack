@@ -30,8 +30,10 @@ class Board {
             if (board[move.x][i] == move.num) return false;
         }
         //Check block
-        for (int i=move.x/3; i<(move.x/3)+3; i++) {
-            for (int j=move.y/3; j<(move.y/3)+3; j++) {
+        int blockx = move.x/3;
+        int blocky = move.y/2;
+        for (int i=blockx*3; i<(blockx*3) + 3; i++) {
+            for (int j=blocky*3; j<(blocky*3) + 3; j++) {
                 if (board[i][j] == move.num) return false;
             }
         }
