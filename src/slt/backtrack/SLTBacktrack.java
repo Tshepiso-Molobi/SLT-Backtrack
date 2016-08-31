@@ -5,17 +5,32 @@
  */
 package slt.backtrack;
 
-/**
- *
- * @author sl1m
- */
+//-----------------------FOR SIBU AND TSHEPISO-------------------------
+
+import java.util.ArrayList;
+
+
+
 public class SLTBacktrack {
 
-    /**
-     * @param args the command line arguments
-     */
+    //FOR SIBU
+    //boolean backtrack(Board board){
+        
+    //}
+    
+    //FOR SIBU
+    //boolean isFull(Board board){
+        
+    //}
+    
+    //FOR TSHEPISO
+    //ArrayList<Move> getMoves(Board board) {
+        
+    //}
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Board board = new Board();
+        
     }
     
 }
