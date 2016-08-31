@@ -8,5 +8,11 @@ package slt.backtrack;
 //-------------------------------FOR LIAM
 
 public class Move {
+    public Move(int x, int y, int num) {
+        this.x = x;
+        this.y = y;
+        this.num = num;
+    }
+    
     int x,y,num;
 }
