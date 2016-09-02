@@ -24,9 +24,27 @@ public class SLTBacktrack {
     //}
     
     //FOR TSHEPISO
-    //ArrayList<Move> getMoves(Board board) {
+    ArrayList<Move> getMoves(Board board) {
+        ArrayList<Move> moves = new ArrayList<Move>();
+        Move move;
+        for(int num=1;num<=9;num++){
+            
+            for(int i=0;i<9;i++){
+                
+                for(int j=0;j<9;j++){
+                    
+                    move = new Move(i,j,num);
+                    if(Board.checkPos(move)){
+                        moves.add(move);
+                    }
+                }
+                
+            }
+            
+        }
         
-    //}
+        return moves;
+    }
     
     public static void main(String[] args) {
         
